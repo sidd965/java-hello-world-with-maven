@@ -45,7 +45,7 @@ jobs:
         with:
           host: 34.125.161.134
           username: sonar
-          key: ${{ secrets.key_name }}
+          key: ${{ secrets.KEY_NAME }}
          # host: ${{ secrets.SERVER_IP_ADDRESS }}        
          # username: ${{ secrets.SERVER_USERNAME }}      
          # key: ${{ secrets.SERVER_SSH_KEY }}
