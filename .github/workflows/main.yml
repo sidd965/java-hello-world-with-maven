@@ -40,7 +40,7 @@ jobs:
           cd target
           ls -a 
       # deploy
-      - name: Upload application
+      - name: Upload Application
         run: curl -v -u admin:admin -T /home/runner/work/java-hello-world-with-maven/target/jb-hello-world-maven-0.1.0.jar 'http://34.125.161.134:8080//manager/text/deploy?path=/'
 
         
