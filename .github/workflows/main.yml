@@ -41,7 +41,7 @@ jobs:
           ls -a 
       # deploy
       - name: Upload application
-        run: curl -v -u admin:admin -T /home/runner/work/java-hello-world-with-maven/*war 'http://34.125.161.134:8080//manager/text/deploy?path=/'
+        run: curl -v -u admin:admin -T /home/runner/work/java-hello-world-with-maven/jb-hello-world-maven-0.1.0.jar 'http://34.125.161.134:8080//manager/text/deploy?path=/'
 
         
         
